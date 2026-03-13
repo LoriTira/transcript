@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Audio files (user data)
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.wma
+*.aac
+!tests/fixtures/*
+
+# Model cache
+models/
+*.bin
+*.pt
+*.onnx
+*.mlmodelc/
+
+# Output
+output/
+transcripts/
+
+# Environment
+.env
+.env.local
+
+# HuggingFace
+.huggingface/
